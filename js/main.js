@@ -221,7 +221,7 @@
 
         const clientsSwiper = new Swiper('.clients', {
 
-            slidesPerView: 4,
+            slidesPerView: 5,
             spaceBetween: 4,
             slideClass: 'clients__slide',
             pagination: {
@@ -240,8 +240,8 @@
                 },
                 // when window width is > 1200px
                 1201: {
-                    slidesPerView: 6,
-                    spaceBetween: 10
+                    slidesPerView: 5,
+                    spaceBetween: 12
                 }
             }
         });
